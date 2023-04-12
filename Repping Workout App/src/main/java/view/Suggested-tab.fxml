@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" styleClass="gradient-background" stylesheets="@../css/home.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SuggestedController">
+   <children>
+      <Pane layoutX="196.0" layoutY="-111.0" prefHeight="223.0" prefWidth="332.0" rotate="-132.5" styleClass="design" stylesheets="@../css/home.css">
+         <children>
+            <Pane layoutX="68.0" layoutY="72.0" prefHeight="85.0" prefWidth="177.0" styleClass="innerDesign" stylesheets="@../css/home.css" />
+         </children>
+      </Pane>
+      <AnchorPane prefHeight="550.0" prefWidth="200.0" styleClass="menuBar" stylesheets="@../css/home.css">
+         <children>
+            <VBox layoutX="1.0" layoutY="186.0" prefHeight="364.0" prefWidth="200.0" styleClass="menuBar" stylesheets="@../css/home.css">
+               <children>
+                  <Button fx:id="btnHomeTab" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="202.0" stylesheets="@../css/home.css" text="Home" textFill="#fa2c56">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Pane prefHeight="1.0" prefWidth="200.0" styleClass="line" stylesheets="@../css/home.css">
+                     <VBox.margin>
+                        <Insets right="20.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button fx:id="btnWorkoutsTab" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="202.0" stylesheets="@../css/home.css" text="Workouts" textFill="#fa2c56">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Pane prefHeight="1.0" prefWidth="200.0" styleClass="line" stylesheets="@../css/home.css">
+                     <VBox.margin>
+                        <Insets right="20.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button fx:id="btnStatisticsTab" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="202.0" stylesheets="@../css/home.css" text="Statistics" textFill="#fa2c56">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Pane layoutX="10.0" layoutY="70.0" prefHeight="1.0" prefWidth="200.0" styleClass="line" stylesheets="@../css/home.css">
+                     <VBox.margin>
+                        <Insets right="20.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button fx:id="btnSuggestedTab" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="202.0" styleClass="buttonOn" stylesheets="@../css/home.css" text="Suggested" textFill="#fa2c56">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Pane prefHeight="1.0" prefWidth="200.0" styleClass="line" stylesheets="@../css/home.css">
+                     <VBox.margin>
+                        <Insets right="20.0" />
+                     </VBox.margin>
+                  </Pane>
+                  <Button fx:id="btnSettingsTab" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="202.0" stylesheets="@../css/home.css" text="Settings" textFill="#fa2c56">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Pane layoutX="1.0" layoutY="116.0" prefHeight="70.0" prefWidth="200.0" styleClass="welcomeLabel" stylesheets="@../css/home.css">
+               <children>
+                  <Label alignment="CENTER" prefHeight="28.0" prefWidth="74.0" style="-fx-opacity: 100%;" text="Welcome" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblSetName" alignment="CENTER" layoutY="22.0" prefHeight="37.0" prefWidth="201.0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="1.0" prefHeight="117.0" prefWidth="200.0">
+               <children>
+                  <Pane layoutX="48.0" layoutY="65.0" prefHeight="16.0" prefWidth="46.0" rotate="53.0" styleClass="weight" stylesheets="@../css/home.css" />
+                  <Pane layoutX="76.0" layoutY="50.0" prefHeight="15.0" prefWidth="34.0" rotate="-36.0" styleClass="bar" stylesheets="@../css/home.css" />
+                  <Pane layoutX="93.0" layoutY="35.0" prefHeight="16.0" prefWidth="46.0" rotate="53.0" styleClass="weight" stylesheets="@../css/home.css" />
+                  <Pane layoutX="115.0" layoutY="25.0" prefHeight="16.0" prefWidth="30.0" rotate="53.0" styleClass="weight" stylesheets="@../css/home.css" />
+                  <Pane layoutX="42.0" layoutY="75.0" prefHeight="16.0" prefWidth="30.0" rotate="53.0" styleClass="weight" stylesheets="@../css/home.css" />
+                  <Pane layoutX="39.0" layoutY="87.0" prefHeight="10.0" prefWidth="12.0" rotate="-37.0" styleClass="ends" stylesheets="@../css/home.css" />
+                  <Pane layoutX="136.0" layoutY="19.0" prefHeight="10.0" prefWidth="12.0" rotate="141.5" styleClass="ends" stylesheets="@../css/home.css" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <VBox layoutX="229.0" layoutY="85.0" prefHeight="451.0" prefWidth="550.0">
+         <children>
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="41.0" prefWidth="550.0">
+               <VBox.margin>
+                  <Insets bottom="2.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="btnAdminAdd" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="34.0" prefWidth="102.0" styleClass="homeButtons" stylesheets="@../css/home.css" text="+" textFill="#f5e6d3">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="4.0" right="4.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <ListView fx:id="lvSuggestedWorkouts" prefHeight="374.0" prefWidth="550.0" styleClass="list-cell-workouts" stylesheets="@../css/home.css">
+               <VBox.margin>
+                  <Insets left="46.0" />
+               </VBox.margin></ListView>
+            <HBox prefHeight="58.0" prefWidth="426.0">
+               <children>
+                  <Button fx:id="btnDelete" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="34.0" prefWidth="102.0" styleClass="homeButtons" stylesheets="@../css/home.css" text="Delete" textFill="#f5e6d3">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="47.0" top="4.0" />
+                     </HBox.margin>
+                  </Button>
+                  <HBox alignment="TOP_RIGHT" prefHeight="46.0" prefWidth="404.0">
+                     <children>
+                        <HBox prefHeight="46.0" prefWidth="271.0">
+                           <children>
+                              <Button fx:id="btnAddToProfile" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="37.0" prefWidth="250.0" styleClass="homeButtons" stylesheets="@../css/home.css" text="Add to profile" textFill="#f5e6d3">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="22.0" top="4.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </HBox>
+                        <Button fx:id="btnView" alignment="BASELINE_CENTER" mnemonicParsing="false" prefHeight="34.0" prefWidth="102.0" styleClass="homeButtons" stylesheets="@../css/home.css" text="View" textFill="#f5e6d3">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="4.0" top="4.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,435 @@
+
+.gradient-background
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2f2b43, #261669);
+}
+
+.button
+{
+-fx-background-color:  #2c273f;
+-fx-background-radius:  0 30 30 0;
+-fx-cursor: hand;
+}
+.button:hover
+{
+-fx-background-color:  #4d466d;
+-fx-background-radius:  0 30 30 0;
+}
+.button:pressed
+{
+-fx-background-color:  #16141f;
+-fx-background-radius:  0 30 30 0;
+}
+
+.welcomeLabel
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius: 7;
+}
+
+.design
+{
+-fx-background-color:  linear-gradient(from 25% 25% to 100% 100%, rgba(250, 44, 86, 0.9), rgba(174, 4, 38, 0.9));
+-fx-background-radius: 70;
+-fx-opacity:  60%;
+}
+
+.innerDesign
+{
+-fx-background-color:  #2f2b43;
+-fx-background-radius: 70;
+}
+
+.menuBar
+{
+-fx-background-color:  #393351;
+}
+
+.bar
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius: 10;
+}
+
+.weight
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius: 70;
+}
+
+.ends
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius: 90 0 0 90;
+}
+
+.line
+{
+-fx-background-color: #c5c0d8;
+}
+
+
+
+.list-cell
+{
+-fx-background-color: rgba(150, 3, 32, 0.8);
+-fx-text-fill: C9BF42;
+-fx-font: bold 15px "Comic Sans MS";
+-fx-cell-size: 40;
+-fx-background-radius: 10px;
+}
+
+.list-cell:odd
+{
+-fx-background-color: transparent;
+-fx-border-style: hidden hidden solid hidden;
+-fx-border-width: 1px;
+-fx-border-color: rgba(253, 155, 175, 0.8);
+}
+
+.list-cell:even
+{
+-fx-background-color: transparent;
+-fx-border-style: hidden hidden solid hidden;
+-fx-border-width: 1px;
+-fx-border-color: rgba(253, 155, 175, 0.6);
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected
+{
+-fx-background-color: #2A4B71;
+-fx-text-fill: C9BF42;
+-fx-background-radius: 0px;
+}
+
+.list-cell:filled:hover
+{
+-fx-background-color: rgb(150, 3, 32);
+-fx-text-fill: F5E6D3;
+-fx-background-radius: 0px;
+-fx-border-color: rgba(47, 43, 67, 0.5);
+-fx-border-radius: 5px;
+-fx-border-width: 2px;
+-fx-border-style: hidden hidden hidden hidden;
+}
+
+.hidden
+{
+-fx-background-color: linear-gradient(#2F2B43 0%, #2E2946 25%, #2E2849 75%, #2D264C 100%);
+}
+
+.filter
+{
+-fx-background-color: F5E6D3;
+-fx-mark-color: rgb(174, 4, 38);
+-fx-cursor: hand;
+}
+
+.filter .context-menu
+{
+-fx-background-color: antiquewhite;
+-fx-background-radius: 5px;
+}
+
+.filter .menu-item:focused {
+-fx-background-color: black;
+-fx-text-fill: red;
+-fx-background-radius: 5px;
+}
+
+.filter .label
+{
+-fx-font: bold 15px "Comic Sans MS";
+}
+
+.homeButtons
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius:  30 30 30 30;
+-fx-cursor: hand;
+}
+.homeButtons:hover
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(143, 54, 86, 0.6), rgba(154, 40, 80, 0.6));
+-fx-background-radius:  30 30 30 30;
+}
+.homeButtons:pressed
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(81, 10, 36, 0.6), rgba(105, 23, 52, 0.6));
+-fx-background-radius:  30 30 30 30;
+}
+
+.workoutsStart
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.9), rgba(250, 44, 86, 0.9));
+-fx-background-radius:  30 30 30 30;
+-fx-cursor: hand;
+}
+.workoutsStart:hover
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(143, 54, 86, 0.9), rgba(154, 40, 80, 0.9));
+-fx-background-radius:  30 30 30 30;
+}
+.workoutsStart:pressed
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(81, 10, 36, 0.9), rgba(105, 23, 52, 0.9));
+-fx-background-radius:  30 30 30 30;
+}
+
+.list-cell-workouts
+{
+-fx-background-color: rgba(150, 3, 32, 0.8);
+-fx-text-fill: C9BF42;
+-fx-font: bold 15px "Comic Sans MS";
+-fx-cell-size: 40;
+-fx-background-radius: 0 10 10 0;
+}
+
+.list-cell-workouts:odd
+{
+-fx-background-color: transparent;
+-fx-border-style: hidden hidden solid hidden;
+-fx-border-width: 1px;
+-fx-border-color: rgba(253, 155, 175, 0.8);
+}
+
+.list-cell-workouts:even
+{
+-fx-background-color: transparent;
+-fx-border-style: hidden hidden solid hidden;
+-fx-border-width: 1px;
+-fx-border-color: rgba(253, 155, 175, 0.6);
+}
+
+.list-cell-workouts:filled:selected:focused, .list-cell-workouts:filled:selected
+{
+-fx-background-color: #2A4B71;
+-fx-text-fill: C9BF42;
+-fx-background-radius: 0px;
+}
+
+.list-cell-workouts:filled:hover
+{
+-fx-background-color: rgb(150, 3, 32);
+-fx-text-fill: F5E6D3;
+-fx-background-radius: 0px;
+-fx-border-color: rgba(47, 43, 67, 0.5);
+-fx-border-radius: 5px;
+-fx-border-width: 2px;
+-fx-border-style: hidden hidden hidden hidden;
+}
+
+.chart .chart-content .chart-plot-background
+{
+-fx-background-color: rgba(150, 3, 32, 0.8);
+-fx-background-radius: 0 10 10 0;
+}
+
+.chart .chart-title
+{
+-fx-text-fill: C9BF42;
+-fx-font: bold 15px "Comic Sans MS";
+}
+
+.axis
+{
+-fx-tick-label-fill: C9BF42;
+-fx-font: bold 15px "Comic Sans MS";
+-fx-tick-length: 15;
+-fx-minor-tick-length: 5;
+}
+
+.axis-label
+{
+-fx-text-fill: C9BF42;
+-fx-font: bold 15px "Comic Sans MS";
+}
+
+.axis-tick-mark
+{
+-fx-stroke-width: 2;
+}
+
+.chart-series-line
+{
+-fx-stroke-width: 2px;
+-fx-stroke: C9BF42;
+}
+
+.chart-line-symbol
+{
+-fx-background-color: C9BF42, black;
+}
+
+.pane
+{
+-fx-background-color: rgba(34, 25, 75, 0.6);
+-fx-background-radius:  30 30 30 30;
+}
+
+.pane:hover
+{
+-fx-background-color: rgb(34, 25, 75);
+-fx-background-radius:  30 30 30 30;
+}
+
+.button2
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(0, 160, 237), rgb(226, 244, 253));
+-fx-cursor: hand;
+}
+
+.button2:hover
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(0, 160, 237), rgb(226, 244, 253));
+}
+
+.button3
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(233, 101, 199), rgb(252, 237, 248));
+-fx-cursor: hand;
+}
+
+.button3:hover
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(233, 101, 199), rgb(252, 237, 248));
+}
+
+.button4
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(51, 199, 105), rgb(232, 248, 238));
+-fx-cursor: hand;
+}
+
+.button4:hover
+{
+-fx-background-radius:  360;
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgb(51, 199, 105), rgb(232, 248, 238));
+}
+
+.bar2
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.2), rgba(250, 44, 86, 0.2));
+-fx-background-radius: 10;
+}
+
+.weight2
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.2), rgba(250, 44, 86, 0.2));
+-fx-background-radius: 70;
+}
+
+.ends2
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.2), rgba(250, 44, 86, 0.2));
+-fx-background-radius: 90 0 0 90;
+}
+
+.buttonLogin
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(174, 4, 38, 0.6), rgba(250, 44, 86, 0.6));
+-fx-background-radius:  30 30 30 30;
+-fx-font: bold 15px "Comic Sans MS";
+-fx-text-fill: F5E6D3;
+-fx-cursor: hand;
+}
+.buttonLogin:hover
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(143, 54, 86, 0.6), rgba(154, 40, 80, 0.6));
+-fx-background-radius:  30 30 30 30;
+-fx-font: bold 15px "Comic Sans MS";
+}
+.buttonLogin:pressed
+{
+-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, rgba(81, 10, 36, 0.6), rgba(105, 23, 52, 0.6));
+-fx-background-radius:  30 30 30 30;
+-fx-font: bold 15px "Comic Sans MS";
+}
+
+.buttonGoToSignup
+{
+-fx-background-color: transparent;
+-fx-cursor: hand;
+}
+
+.buttonGoToSignup:hover
+{
+-fx-background-color: transparent;
+-fx-cursor: hand;
+-fx-underline: true;
+}
+
+.radio
+{
+-fx-cursor: hand;
+}
+
+
+
+.table-view
+{
+-fx-background-color:  rgba(43, 43, 43, 0.8);
+-fx-background-radius: 5px;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler
+{
+-fx-background-color:  #2A4B71;
+}
+
+.table-view .column-header .label
+{
+-fx-text-fill: antiquewhite;
+-fx-font-weight: bold;
+-fx-alignment: CENTER;
+}
+
+.table-view .cell
+{
+-fx-cell-size: 40;
+-fx-alignment: center-left;
+-fx-background-color: rgba(123, 19, 49, 0.7);
+-fx-border-color: #520C20;
+-fx-text-fill: #C9BF42;
+-fx-font-weight: bold;
+-fx-alignment: CENTER;
+}
+
+.table-view .cell:selected
+{
+-fx-background-color: whitesmoke;
+-fx-text-background-color:  #6622CC;
+}
+
+.table-view .scroll-bar *
+{
+-fx-min-height: 0;
+-fx-pref-height: 0;
+-fx-max-height: 0;
+-fx-pref-width: 10px;
+}
+
+
+.textField
+{
+-fx-background-color: rgba(110, 105, 133, 0.8);
+-fx-background-radius: 5px;
+}
+
+.textFieldPane
+{
+-fx-background-color: rgba(73, 70, 88, 0.5);
+-fx-background-radius: 10px;
+}
+
+.buttonOn
+{
+-fx-background-color:  #4d466d;
+-fx-background-radius:  0 30 30 0;
+}

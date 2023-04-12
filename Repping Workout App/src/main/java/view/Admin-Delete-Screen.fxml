@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" styleClass="gradient-background" stylesheets="@../css/home.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminDeleteController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <Pane layoutX="30.0" layoutY="230.0" prefHeight="80.0" prefWidth="230.0" rotate="53.5" styleClass="weight2" stylesheets="@../css/home.css" />
+            <Pane layoutX="167.0" layoutY="163.0" prefHeight="75.0" prefWidth="170.0" rotate="-36.9" styleClass="bar2" stylesheets="@../css/home.css" />
+            <Pane layoutX="235.0" layoutY="80.0" prefHeight="80.0" prefWidth="230.0" rotate="53.0" styleClass="weight2" stylesheets="@../css/home.css" />
+            <Pane layoutX="343.0" layoutY="34.0" prefHeight="80.0" prefWidth="150.0" rotate="53.0" styleClass="weight2" stylesheets="@../css/home.css" />
+            <Pane layoutX="4.0" layoutY="278.0" prefHeight="80.0" prefWidth="150.0" rotate="53.0" styleClass="weight2" stylesheets="@../css/home.css" />
+            <Pane layoutX="-12.0" layoutY="331.0" prefHeight="50.0" prefWidth="60.0" rotate="-37.0" styleClass="ends2" stylesheets="@../css/home.css" />
+            <Pane layoutX="443.0" layoutY="3.0" prefHeight="50.0" prefWidth="60.0" rotate="143.1" styleClass="ends2" stylesheets="@../css/home.css" />
+            <Pane layoutX="26.0" layoutY="141.0" prefHeight="141.0" prefWidth="458.0" styleClass="pane" stylesheets="@../css/home.css">
+               <children>
+                  <Label alignment="BASELINE_CENTER" layoutX="83.0" layoutY="27.0" prefHeight="37.0" prefWidth="68.0" text="User:" textFill="#f5e6d3">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnDelete" layoutX="166.0" layoutY="77.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="145.0" styleClass="buttonLogin" stylesheets="@../css/home.css" text="Delete account" />
+                  <ChoiceBox fx:id="cbAccounts" layoutX="161.0" layoutY="31.0" prefHeight="28.0" prefWidth="154.0" styleClass="filter" stylesheets="@../css/home.css" />
+               </children>
+            </Pane>
+            <Button fx:id="btnBack" layoutX="2.0" layoutY="2.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="68.0" styleClass="buttonGoToSignup" stylesheets="@../css/home.css">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/iconBack.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Pane layoutX="162.0" layoutY="6.0" prefHeight="46.0" prefWidth="201.0" styleClass="welcomeLabel" stylesheets="@../css/home.css">
+               <children>
+                  <Label alignment="BASELINE_CENTER" layoutX="10.0" layoutY="5.0" prefHeight="37.0" prefWidth="181.0" text="Delete account" textFill="#f5e6d3">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
